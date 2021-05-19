@@ -15,7 +15,7 @@ def getKey(item):
     
     return 'Key not found!'
 
-#perform brute forcing on 1-26 keys
+#perform brute forcing on 0-26 keys
 print("[*] Find the flag that contain actual english words, that's the key to decrypt it!")
 for key in range(26):    
     flag = ''    
